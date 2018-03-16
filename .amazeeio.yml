@@ -14,7 +14,7 @@ shared:
   production:
     - src: files
       dst: sites/default/files
-    - src: root_files
-      dst: files/documents
+    - src: files
+      dst: files
     - src: images
       dst: images
