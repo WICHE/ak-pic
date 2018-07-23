@@ -754,7 +754,7 @@ table {
   /* line 130, ../sass/layouts/_responsive.scss */
   #page .header .header__name-and-slogan {
     position: absolute;
-    top: 45px;
+    top: 25px;
     left: 12px;
   }
   /* line 135, ../sass/layouts/_responsive.scss */
@@ -819,33 +819,37 @@ table {
   #page #main #navigation .nice-menu {
     display: none;
   }
+  /* line 208, ../sass/layouts/_responsive.scss */
+  #page .search-box {
+    display: none;
+  }
 }
 /*480 to 760px*/
 @media all and (min-width: 480px) and (max-width: 759px) {
-  /* line 215, ../sass/layouts/_responsive.scss */
+  /* line 217, ../sass/layouts/_responsive.scss */
   #page #header {
     background: url(../images/CO-PIC-banner960.png) 0 0 no-repeat;
     height: 154px;
     position: relative;
     /* Wrapper for website name and slogan. */
   }
-  /* line 221, ../sass/layouts/_responsive.scss */
+  /* line 223, ../sass/layouts/_responsive.scss */
   #page #header .header__name-and-slogan {
     position: absolute;
-    top: 108px;
-    left: 150px;
+    top: 50px;
+    left: 20px;
+    width: 400px;
   }
-  /* line 225, ../sass/layouts/_responsive.scss */
+  /* line 229, ../sass/layouts/_responsive.scss */
   #page #header .header__name-and-slogan h1.site-name, #page #header .header__name-and-slogan a.header__site-link {
-    font-weight: 100;
     letter-spacing: 1px;
     font-size: 1em;
   }
-  /* line 232, ../sass/layouts/_responsive.scss */
+  /* line 235, ../sass/layouts/_responsive.scss */
   #page #header .right-logo {
     display: none !important;
   }
-  /* line 237, ../sass/layouts/_responsive.scss */
+  /* line 240, ../sass/layouts/_responsive.scss */
   #page #navigation {
     background: #f0f0f0;
     padding: 4px;
@@ -853,30 +857,34 @@ table {
     margin: 8px 0;
     border-bottom: 2px solid #ccc;
   }
-  /* line 244, ../sass/layouts/_responsive.scss */
+  /* line 247, ../sass/layouts/_responsive.scss */
   #page #navigation .search-box {
     display: none;
   }
-  /* line 249, ../sass/layouts/_responsive.scss */
+  /* line 252, ../sass/layouts/_responsive.scss */
   #page #phone-nav, #page .nav-toggle {
+    display: none;
+  }
+  /* line 256, ../sass/layouts/_responsive.scss */
+  #page .search-box {
     display: none;
   }
 }
 /*760px to 959px*/
 @media all and (min-width: 760px) and (max-width: 959px) {
-  /* line 263, ../sass/layouts/_responsive.scss */
+  /* line 270, ../sass/layouts/_responsive.scss */
   #page #header {
     background: url(../images/CO-PIC-banner960.png) 0 0 no-repeat;
     height: 154px;
     position: relative;
     /* Wrapper for website name and slogan. */
   }
-  /* line 269, ../sass/layouts/_responsive.scss */
+  /* line 276, ../sass/layouts/_responsive.scss */
   #page #header .header__name-and-slogan {
     position: absolute;
-    top: 108px;
+    top: 30px;
   }
-  /* line 272, ../sass/layouts/_responsive.scss */
+  /* line 279, ../sass/layouts/_responsive.scss */
   #page #header .header__name-and-slogan h1.site-name, #page #header .header__name-and-slogan a.header__site-link {
     color: #231f20;
     font-family: "Open Sans",sans-serif;
@@ -885,11 +893,11 @@ table {
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  /* line 281, ../sass/layouts/_responsive.scss */
+  /* line 288, ../sass/layouts/_responsive.scss */
   #page #header .header__logo {
     display: none;
   }
-  /* line 286, ../sass/layouts/_responsive.scss */
+  /* line 293, ../sass/layouts/_responsive.scss */
   #page #navigation {
     background: #f0f0f0;
     padding: 4px;
@@ -897,16 +905,18 @@ table {
     margin: 8px 0;
     border-bottom: 2px solid #ccc;
   }
-  /* line 293, ../sass/layouts/_responsive.scss */
-  #page #navigation .search-box {
-    display: none;
-  }
-  /* line 297, ../sass/layouts/_responsive.scss */
+  /* line 300, ../sass/layouts/_responsive.scss */
   #page #navigation #phone-nav, #page #navigation .nav-toggle {
     display: none;
   }
+  /* line 305, ../sass/layouts/_responsive.scss */
+  #page .search-box {
+    position: absolute;
+    right: 30px;
+    top: 90px;
+  }
 
-  /* line 303, ../sass/layouts/_responsive.scss */
+  /* line 312, ../sass/layouts/_responsive.scss */
   #phone-nav {
     display: none;
   }
@@ -914,23 +924,23 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 310, ../sass/layouts/_responsive.scss */
+  /* line 321, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 312, ../sass/layouts/_responsive.scss */
+  /* line 323, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 315, ../sass/layouts/_responsive.scss */
+  /* line 326, ../sass/layouts/_responsive.scss */
   .sidebar-first #content .hideme {
     display: none;
   }
-  /* line 321, ../sass/layouts/_responsive.scss */
+  /* line 332, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -941,23 +951,23 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 329, ../sass/layouts/_responsive.scss */
+  /* line 340, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-  /* line 331, ../sass/layouts/_responsive.scss */
+  /* line 342, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-  /* line 333, ../sass/layouts/_responsive.scss */
+  /* line 344, ../sass/layouts/_responsive.scss */
   .sidebar-second #content .hideme {
     display: none;
   }
-  /* line 339, ../sass/layouts/_responsive.scss */
+  /* line 350, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -968,31 +978,31 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 347, ../sass/layouts/_responsive.scss */
+  /* line 358, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-  /* line 349, ../sass/layouts/_responsive.scss */
+  /* line 360, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-  /* line 351, ../sass/layouts/_responsive.scss */
+  /* line 362, ../sass/layouts/_responsive.scss */
   .two-sidebars #content .hideme {
     display: none;
   }
-  /* line 357, ../sass/layouts/_responsive.scss */
+  /* line 368, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-  /* line 362, ../sass/layouts/_responsive.scss */
+  /* line 373, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -1006,7 +1016,7 @@ table {
     /* Span 1 column, starting in the 2nd column from left. */
     /* Span 1 column, starting in the 3rd column from left. */
   }
-  /* line 368, ../sass/layouts/_responsive.scss */
+  /* line 379, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -1016,7 +1026,7 @@ table {
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 372, ../sass/layouts/_responsive.scss */
+  /* line 383, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -1024,14 +1034,14 @@ table {
     margin-right: -33.33333%;
     clear: left;
   }
-  /* line 377, ../sass/layouts/_responsive.scss */
+  /* line 388, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-  /* line 381, ../sass/layouts/_responsive.scss */
+  /* line 392, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -1043,21 +1053,21 @@ table {
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 960px) {
-  /* line 396, ../sass/layouts/_responsive.scss */
+  /* line 407, ../sass/layouts/_responsive.scss */
   #page #header {
     background: url(../images/CO-PIC-banner.png) 0 0 no-repeat;
     height: 192px;
     position: relative;
     /* Wrapper for website name and slogan. */
   }
-  /* line 402, ../sass/layouts/_responsive.scss */
+  /* line 413, ../sass/layouts/_responsive.scss */
   #page #header .header__name-and-slogan {
     position: absolute;
     top: 70px;
     left: 50px;
     width: 550px;
   }
-  /* line 407, ../sass/layouts/_responsive.scss */
+  /* line 418, ../sass/layouts/_responsive.scss */
   #page #header .header__name-and-slogan h1.site-name, #page #header .header__name-and-slogan a.header__site-link {
     font-family: 'Open Sans', sans-serif;
     color: #231f20;
@@ -1066,19 +1076,19 @@ table {
     text-transform: uppercase;
     font-size: 1.3em;
   }
-  /* line 418, ../sass/layouts/_responsive.scss */
+  /* line 429, ../sass/layouts/_responsive.scss */
   #page #header .right-logo {
     position: absolute;
     right: 35px;
     top: -12px;
   }
-  /* line 423, ../sass/layouts/_responsive.scss */
+  /* line 434, ../sass/layouts/_responsive.scss */
   #page #header .right-logo img {
     width: 100%;
     max-width: 215px;
     height: auto;
   }
-  /* line 431, ../sass/layouts/_responsive.scss */
+  /* line 442, ../sass/layouts/_responsive.scss */
   #page #navigation {
     background: #f0f0f0;
     padding: 4px;
@@ -1086,26 +1096,32 @@ table {
     margin: 8px 0;
     border-bottom: 2px solid #ccc;
   }
-  /* line 438, ../sass/layouts/_responsive.scss */
+  /* line 449, ../sass/layouts/_responsive.scss */
   #page #navigation .search-box {
     position: absolute;
     top: 6px;
     right: 12px;
   }
-  /* line 445, ../sass/layouts/_responsive.scss */
+  /* line 456, ../sass/layouts/_responsive.scss */
   #page #phone-nav, #page .nav-toggle {
     display: none;
+  }
+  /* line 460, ../sass/layouts/_responsive.scss */
+  #page .search-box {
+    position: absolute;
+    right: 30px;
+    top: 135px;
   }
 
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 456, ../sass/layouts/_responsive.scss */
+  /* line 474, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 458, ../sass/layouts/_responsive.scss */
+  /* line 476, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1114,37 +1130,37 @@ table {
     border-left: 1px solid #ccc;
     padding-left: 16px;
   }
-  /* line 463, ../sass/layouts/_responsive.scss */
+  /* line 481, ../sass/layouts/_responsive.scss */
   .sidebar-first #content p {
     margin-top: 0;
   }
-  /* line 469, ../sass/layouts/_responsive.scss */
+  /* line 487, ../sass/layouts/_responsive.scss */
   .sidebar-first #content .hideme {
     display: none;
   }
-  /* line 476, ../sass/layouts/_responsive.scss */
+  /* line 494, ../sass/layouts/_responsive.scss */
   .sidebar-first #content .view-site-descriptions .view-content .views-row {
     border-bottom: 1px solid #ccc;
     padding-bottom: 12px;
     margin-bottom: 12px;
   }
-  /* line 481, ../sass/layouts/_responsive.scss */
+  /* line 499, ../sass/layouts/_responsive.scss */
   .sidebar-first #content .view-site-descriptions .view-content .views-row h2 {
     margin-bottom: 1.5em;
   }
-  /* line 485, ../sass/layouts/_responsive.scss */
+  /* line 503, ../sass/layouts/_responsive.scss */
   .sidebar-first #content .view-site-descriptions .view-content .views-row p {
     margin: 0 0 1em 0;
     line-height: 1.5em;
   }
-  /* line 495, ../sass/layouts/_responsive.scss */
+  /* line 513, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 498, ../sass/layouts/_responsive.scss */
+  /* line 516, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first .block {
     padding-right: 12px;
   }
@@ -1152,23 +1168,23 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 507, ../sass/layouts/_responsive.scss */
+  /* line 525, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 509, ../sass/layouts/_responsive.scss */
+  /* line 527, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 512, ../sass/layouts/_responsive.scss */
+  /* line 530, ../sass/layouts/_responsive.scss */
   .sidebar-second #content .hideme {
     display: none;
   }
-  /* line 518, ../sass/layouts/_responsive.scss */
+  /* line 536, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1179,31 +1195,31 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 526, ../sass/layouts/_responsive.scss */
+  /* line 544, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 528, ../sass/layouts/_responsive.scss */
+  /* line 546, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 531, ../sass/layouts/_responsive.scss */
+  /* line 549, ../sass/layouts/_responsive.scss */
   .two-sidebars #content .hideme {
     display: none;
   }
-  /* line 537, ../sass/layouts/_responsive.scss */
+  /* line 555, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 542, ../sass/layouts/_responsive.scss */
+  /* line 560, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1293,13 +1309,11 @@ table {
   display: inline-block;
 }
 
-/* line 88, ../sass/components/_misc.scss */
-.search-box {
-  position: absolute;
-  right: 30px;
-  top: 135px;
-}
-
+/*.search-box{
+	position:absolute;
+	right:30px;
+	top:135px;
+}*/
 /* Logo image. */
 /* line 95, ../sass/components/_misc.scss */
 .header__logo-image {
@@ -2091,7 +2105,7 @@ tr.selected td {
 /* line 841, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1398863088');
+  background-image: url('../images/progress.gif?1524688079');
 }
 
 /*get rid of top margin on unordered lists*/

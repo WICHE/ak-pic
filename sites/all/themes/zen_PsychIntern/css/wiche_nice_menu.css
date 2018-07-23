@@ -29,13 +29,14 @@ ul.nice-menu li {
 }
 
 ul.nice-menu a {
-   font-family: 'Open Sans', sans-serif;
-   font-weight:400;
-  padding: 0 15px 0 8px;
-  color:#000;
-  text-decoration:none;
-  text-transform:uppercase;
-  letter-spacing:1px;
+  	font-family: 'Open Sans', sans-serif;
+	font-size:100%;
+   	font-weight:400;
+ 	padding: 0 15px 0 8px;
+  	color:#000;
+  	text-decoration:none;
+  	text-transform:uppercase;
+  	letter-spacing:1px;
 }
 ul.nice-menu a:hover {
 	color:#ff3434
