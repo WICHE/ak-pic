@@ -7,3 +7,4 @@ sites/*/private
 sites/*/.sass-cache/
 files/
 images/
+site
