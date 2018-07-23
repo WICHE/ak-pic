@@ -129,7 +129,7 @@ $zen-auto-include-item-base: false;
 	  height:113px;
 				.header__name-and-slogan {
 					position:absolute;
-					top:45px;
+					top:25px;
 					left:12px;
 					
 					a{
@@ -205,7 +205,9 @@ $zen-auto-include-item-base: false;
 			}
 			
 			}//end main
-			
+				.search-box{
+		display:none;
+			}
 		}//end page
  }
   /*480 to 760px*/
@@ -219,11 +221,12 @@ $zen-auto-include-item-base: false;
 		
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
-  position: absolute;
-  top:108px;
-  left:150px;
+    position: absolute;
+    top:50px;
+    left:20px;
+	width:400px;
+	
   h1.site-name, a.header__site-link{
-	  font-weight:100;
 	  letter-spacing:1px;
 	  font-size:1em;
   }
@@ -249,6 +252,10 @@ $zen-auto-include-item-base: false;
 		#phone-nav, .nav-toggle{
 			display:none;
 		}
+		 
+	.search-box{
+		display:none;
+			}
 	
 }//end page  
 			
@@ -268,7 +275,7 @@ $zen-auto-include-item-base: false;
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
   position: absolute;
-  top:108px;
+  top:30px;
   h1.site-name, a.header__site-link{
 	  color: #231f20;
      font-family: "Open Sans",sans-serif;
@@ -290,19 +297,23 @@ $zen-auto-include-item-base: false;
 			margin:8px 0;
 			border-bottom:2px solid #ccc;
 			
-				.search-box{
-					display:none;
-			}
-			
 			#phone-nav, .nav-toggle{
 			display:none;
 		}
 	}
 	
+.search-box{
+	position:absolute;
+	right:30px;
+	top:90px;
+} 
+	
 }//end page  
   #phone-nav{
 	  display:none;
   }
+	
+
 
   /**
    * The layout when there is only one sidebar, the left one.
@@ -445,6 +456,13 @@ $zen-auto-include-item-base: false;
 	#phone-nav, .nav-toggle{
 		display:none;
 	}
+	
+	.search-box{
+		position:absolute;
+		right:30px;
+		top:135px;
+	} 
+	
 }//end page
 
 
