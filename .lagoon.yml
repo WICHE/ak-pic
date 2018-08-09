@@ -30,3 +30,4 @@ environments:
         - "ak-pic.org":
             tls-acme: 'false'
             insecure: Redirect
+            insecure: Redirect
