@@ -25,9 +25,8 @@ environments:
     routes:
       - varnish:
         - "www.ak-pic.org":
-            tls-acme: 'false'
+            tls-acme: 'true'
             insecure: Redirect
         - "ak-pic.org":
-            tls-acme: 'false'
-            insecure: Redirect
+            tls-acme: 'true'
             insecure: Redirect
