@@ -854,7 +854,9 @@ tr.selected td {
 
 
 table.ak-pic_header_row, table.ak-pic{
-	width:100%;
+	width:90%;
+	border:1px solid #cccccc;
+	margin:0 auto;
 		tr:first-child th{
 				background:#ccc;
 				color:#000;

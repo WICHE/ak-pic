@@ -2117,9 +2117,11 @@ tr.selected td {
 /*table styling*/
 /* line 856, ../sass/components/_misc.scss */
 table.ak-pic_header_row, table.ak-pic {
-  width: 100%;
+  width: 90%;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
 }
-/* line 858, ../sass/components/_misc.scss */
+/* line 860, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr:first-child th, table.ak-pic tr:first-child th {
   background: #ccc;
   color: #000;
@@ -2127,33 +2129,33 @@ table.ak-pic_header_row tr:first-child th, table.ak-pic tr:first-child th {
   border: none;
   padding: 6px;
 }
-/* line 866, ../sass/components/_misc.scss */
+/* line 868, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr th, table.ak-pic tr th {
   text-align: left;
   border: none;
   padding-left: 16px;
 }
-/* line 872, ../sass/components/_misc.scss */
+/* line 874, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr:nth-child(even), table.ak-pic tr:nth-child(even) {
   background: #fff;
 }
-/* line 876, ../sass/components/_misc.scss */
+/* line 878, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr:nth-child(odd), table.ak-pic tr:nth-child(odd) {
   background: #f1f1f1;
 }
-/* line 880, ../sass/components/_misc.scss */
+/* line 882, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr td, table.ak-pic_header_row th, table.ak-pic tr td, table.ak-pic th {
   padding: 6px;
 }
-/* line 884, ../sass/components/_misc.scss */
+/* line 886, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr td, table.ak-pic tr td {
   border-left: 1px solid #ccc;
 }
-/* line 888, ../sass/components/_misc.scss */
+/* line 890, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr th, table.ak-pic tr th {
   border: none;
 }
-/* line 893, ../sass/components/_misc.scss */
+/* line 895, ../sass/components/_misc.scss */
 table.ak-pic_header_row tr th.last-updated, table.ak-pic tr th.last-updated {
   font-style: italic;
   font-size: .8em;
