@@ -753,7 +753,7 @@ table {
   /* line 129, ../sass/layouts/_responsive.scss */
   #page .header .header__name-and-slogan {
     position: absolute;
-    top: 55px;
+    top: 20px;
     left: 12px;
   }
   /* line 134, ../sass/layouts/_responsive.scss */
@@ -827,7 +827,7 @@ table {
 @media all and (min-width: 480px) and (max-width: 759px) {
   /* line 216, ../sass/layouts/_responsive.scss */
   #page #header {
-    background: url(../images/CO-PIC-banner960.png) 0 0 no-repeat;
+    background: url(../images/CO-PIC-banner960.jpg) 0 0 no-repeat;
     height: 154px;
     position: relative;
     /* Wrapper for website name and slogan. */
